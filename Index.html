@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="Style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/5bd03fa86c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <nav>
+            <img src="images/D3.png " class="logo">
+            <ul id="sidemenu">
+                <li><a href="">Home</a> </li>
+                <li><a href="#about" >About</a> </li>
+                <li><a href="#services">Services</a> </li>
+                <li><a href="#portfolio">Portfolio</a> </li>
+                <li><a href="#contact">Contact</a> </li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+
+        </nav>
+        
+          <div class="container">
+            <div class="site-header">
+                
+                
+                <div class="text">
+                    <h1>Hello!</h1>
+                    <h2>Software Engineer</h2>
+                    <p></p>
+                    <h3>I'm a <span>Web developer and Data analyst.</span></h3>
+                </div>
+
+                <div class="hero">
+                    <img id="img" src="images/logo.png" alt="">
+                    </div>
+
+            </div>
+           
+            </div>
+       
+    </div>
+
+    <!-- ---------About-------- -->
+
+    <div id="about">
+        <div class="contain-about">
+            <div class="row">
+                <div class="col-1">
+                    <img src="images/profile.png" alt="">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub">About Me</h1>
+                    <p>After completing my bachelor's degree in Afebabalola University, i worked with the Nigerian national institute of information technology(NIIT) on interestin projects spanning from data analysis and Front end web development. 
+                        <br>
+                        <br>
+                       After 9 months of learning and worrking with different teams at NIIT to deliver specialized products using Javascript,Python,REACT and Microsoft power bi, i joined the technology providers -Galaxy Backbone as a network security intern to monitor and run scans to observe the 
+                       threat levels of clients website. <br>
+                <br>
+                    I have thoroughly enjoyed growing my sills and practically deploying them in solving real life issues via technology and continuosly seek new challenges in the spcae. 
+                My superpower is optimisim so regardless of how daunting a task may present, i believe with the right amount of dedication and collaboration it can get sorted. </p>
+
+                <div class="tab-titles">
+                        <p class="links underline-links" onclick="opentab('skills')">Skills</p>
+                        <p class="links" onclick="opentab('experience')">Experience</p>
+                        <p class="links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="contents active-tabs" id="skills">
+                    <ul>
+                        <li><span>Front-End development</span><br>Web design and development</li>
+                        <li><span>Data analysis</span><br> Using Data to find important insight and visualizing the data</li>
+                        <li><span>Information technology</span><br> Ensuring strong Websites Security and checking vulnerabilities for Clients</li>
+                    </ul>
+                </div>
+                <div class="contents" id="experience">
+                    <ul>
+                        <li><span>2023 - current</span><br> Free Lancer</li>
+                        <li><span>2022</span><br> Network Security Intern -Galaxy-Backbone</li>
+                        <li><span>2020</span><br> Software Engineer intern Nigerian Institute of inormation technology(NIIT)</li>
+                       
+                    </ul>
+                </div>
+                <div class="contents" id="education">
+                    <ul>
+                        <li><span>2017-2021</span><br> Afebabalola University</li>
+                        <li><span>2016-2017</span><br> Brookstone international foundation year</li>
+                        <li><span>2010-2016</span><br> St benedict Immaculate canadian Academy</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ------------------Services----------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p> Creating responsive websites and web Interfaces with html, css, Javascript and React</p>
+                    <a href="">Learn More.</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Analysis/Machine Learning</h2>
+                    <p> Collecting, cleaning, preparing and analyzing data using python and Microsoft power Bi to create, communicate and visualize key insights to solve problems.</p>
+                    
+                    <a href="">Learn More.</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+<!-- -----------------Portfoloi------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub">My Work</h1>
+            <div class="work-list">
+                <div class="Project">
+                    <img src="images/Project-1.png" alt="">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>My online working space to showcase my skills and connect with people all over the world. </p>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="Project">
+                    <img src="images/Project-2.png" alt="">
+                    <div class="layer">
+                        
+                        <h3>EDA NEtflix</h3>
+                        <p>Analyzing and manipulation
+                            of the netflix kaggle data. </p>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="Project">
+                    <img src="images/Project-3.png" alt="">
+                    <div class="layer">
+                    
+                        <h3>E-commerce Site</h3>
+                        
+                        <p> A REACT Front-End shopping website.</p>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                 <div class="Project">
+                    <img src="images/Project-4.png" alt="">
+                    <div class="layer">
+                        <h3>Todo App</h3>
+                        <p> React Todo app that allows user add,edit,mark and delete task. </p>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="Project">
+                    <img src="images/Project-5.png" alt="">
+                    <div class="layer">
+                        <h3>Tic Tac Toe</h3>
+                        <p> A simple tic tac toe game using HTML, CSS and Javascript </p>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="Project">
+                    <img src="images/Project-6.png" alt="">
+                    <div class="layer">
+                        <h3>Calculator App</h3>
+                        <p> A simple calculator using HTML, CSS and Javascript </p>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div> 
+                </div>
+            </div>
+          
+
+             </div>
+    </div>
+
+<!-- -------------------Contacts-------------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Divinen60@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>09058885910</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/divine-ndubuisi-0779b019b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/divine442/"><i class="fa-brands fa-github"></i></a>
+                 </div>
+                 <a href="images/My Resume.pdf" download class="btn">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        <p>Copyright @Divine Ndubuisi.<i class="fa-solid fa-laptop-code"></i> </p>
+    </div>
+ </div>
+
+      <script>
+        var links = document.getElementsByClassName("links");
+        var contents = document.getElementsByClassName("contents");
+
+
+        function opentab(tabname){
+            for(link of links){
+                link.classList.remove("underline-links");
+            }
+            for(content of contents){
+                content.classList.remove("active-tabs");
+            }
+            event.currentTarget.classList.add("underline-links")
+            document.getElementById(tabname).classList.add("active-tabs")
+        }
+      </script>
+
+      <script>
+        
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+
+      </script>
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwU6_qyfg3rmHLnehH70n6KyHgtKBQCsa3d3hA0lPjAb70flriqX7YioQ_EI2FDFxM5/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent succesfully"
+                setTimeout(() => {
+                    msg.innerHTML= ""
+                }, 3000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
