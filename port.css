@@ -107,7 +107,7 @@ nav ul li a:hover::after{
 .text h3 span{
     color: aqua;
     display: inline-flex;
-    width: 35.8%;
+    width: 42.6%;
     border-right: 5px solid;
     font-family:'Courier New', Courier, monospace;
    white-space: nowrap;
@@ -457,17 +457,21 @@ nav .fas{
 @media only screen and (max-width: 900px){
    
     .hero img{
-        width: 30%;
-        border-radius: 50%;
+        margin-top: 35px;
+        width: 25%;
+       
         background-color: aqua
+}
+h1{
+    font-size: 16px;
 }
 .text{
     margin-top: 100%;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .text h2{
-    font-size: 13px;
+    font-size: 12px;
 }
 .text h3{
     font-size: 10px;
@@ -475,7 +479,7 @@ nav .fas{
 .text h3 span{
     color: aqua;
     display: inline-flex;
-    width: 53%;
+    width: 62.4%;
     border-right: 5px solid;
     font-family:'Courier New', Courier, monospace;
    white-space: nowrap;
